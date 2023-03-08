@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML LAYOUT</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #212529;
+  padding: 20px;
+  text-align:left;
+  font-size: 15px;
+  color: white;
+}
+span{
+    margin-right: 1.5rem!important;
+    font-size: 15px;
+    text-align: center!important;
+}
+
+nav {
+  float: left;
+  width: 10%;
+  height: 655px;
+  background: #eeeded;
+  padding: 20px;
+  color: #000000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside{
+    float: right;
+    width: 5%;
+    height: 655px;
+    background: #eeeded;
+    padding: 20px;
+    color: #ffffff;
+}
+i {
+    color: black;
+}
+a {
+    color: inherit!important;
+    text-decoration: dashed;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  width: 85%;
+  height: 655px;
+  background-color: #eeeded;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #212529;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+</style>
+
+<body>
+<header>
+    <div>
+    <span>
+        Namuun-Erdene
+    </span>
+    <span>
+        Contact: b21fa1721@ufe.edu.mn
+    </span>
+    <span>
+        github: Namuun-Erdene
+    </span>
+</div>
+
+</header>
+
+<section>
+  <nav>
+    <ul class="lesson">
+      <li><a href="#">WEB231</a></li>
+      <li><a href="#">SWE331</a></li>
+      <li><a href="#">SWM231</a></li>
+      <li><a href="#">ISA333</a></li>
+      <li><a href="#">AEN111B</a></li>
+    </ul>
+  </nav>
+  <summary>
+
+  </summary>
+  <aside>
+          <div class="icon">
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+            
+  </aside>
+  
+  <article>
+    <h1>WEB231</h1>
+    <details>
+        <summary>Хичээлийн тодорхойлолт</summary>
+        <p>Вэб технологийн талаарх суурь ойлголтуудыг олгож эдгээр технологиуд болон вэб хөгжүүлэхэд ашиглагддаг хэлнүүдийг ашиглан вэб хуудсыг хэрхэн хөгжүүлэхийг суралцах болно. Сүүлийн үеийн нэмэлт технологиуд болох вэб хөгжүүлэлтийн фраймворкуудын талаарх үндсэн ойлголтуудыг олгох <br>сургалтын үйл ажиллагаа.</p>
+      </details>
+      <details>
+        <summary>Хичээлийн зорилго</summary>
+        <p>Вэб технологийн талаарх суурь ойлголтуудыг олгож өгөгдсөн вэб дизайны дагуу HTML5, CSS3, JS болон фраймворкийг ашиглан <br>мэргэжлийн програмуудыг тусламжтайгаар вэб хөгжүүлэлт хийх суурь мэдлэг, чадварыг олгох</p>
+      </details>
+  </article>
+
+</section>
+
+<footer>
+  <p>Made By: Namuun-Erdene</p>
+</footer>
+
+</body>
+</html>
+
